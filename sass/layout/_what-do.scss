@@ -1,0 +1,40 @@
+.about-work-section {
+  @media (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.about-work-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.image-work {
+  position: relative;
+  width: 100%;
+}
+.work-section-artic {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+
+  color: $hero-text-color;
+  position: absolute;
+
+  left: 0;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  background: $work-section-artic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* поменяли местами, было вверху*/
+.what-we-do-ul {
+  display: flex;
+
+  .what-we-do-li + .what-we-do-li {
+    padding-left: 30px;
+  }
+}

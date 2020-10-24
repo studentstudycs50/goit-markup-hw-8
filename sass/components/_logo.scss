@@ -1,0 +1,80 @@
+/*.main-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.nav {
+  text-decoration: none;
+
+  & .accent-logo {
+    color: $accent-text-color;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+  }
+  & .logo {
+    color: $title-text-color;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+  }
+}
+*/
+/*настройка слова Studio в футере */
+/*
+.logotip {
+  color: $hero-text-color;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+*/
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.nav {
+  text-decoration: none;
+
+  & .accent-logo {
+    color: $accent-text-color;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+  }
+}
+
+/*настройка слова Studio в футере */
+
+.logotip {
+  color: $hero-text-color;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+@media screen and (min-width: 480px) {
+  .main-nav {
+    width: 480px;
+  }
+  .nav {
+    width: 480px;
+  }
+  .logotip {
+    width: 480px;
+  }
+  & .accent-logo {
+    width: 480px;
+  }
+}

@@ -1,0 +1,370 @@
+/*
+.foot-main {
+  box-sizing: border-box;
+  width: 231px;
+  height: 105px;
+}
+
+.footer {
+  background-color: $second-bg-color;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  height: 252px;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+
+  &-addr {
+    color: $hero-text-color;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+  }
+  &-link {
+    color: $footer-text-color;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  &-li:first-child {
+    margin-top: 20px;
+  }
+
+  &-li {
+    margin-top: 9px;
+  }
+  &-tel {
+    margin-top: 9px;
+  }
+}
+*/
+/*=====Footer-social-links=====*/
+
+/*
+.join-us-footer {
+  color: $hero-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 20px;
+  padding-top: 12px;
+}
+.social-list-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+
+  &-svg {
+    width: 20px;
+    height: 20px;
+  }
+  & .social-list-item + .social-list-item {
+    margin-left: 10px;
+  }
+}
+.social-list-item-footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: $bgc-links-footer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover svg {
+    fill: $hero-text-color;
+  }
+}
+.social-footer-link-instagram {
+  fill: $hero-text-color;
+}
+.social-footer-link-twitter {
+  fill: $hero-text-color;
+}
+.social-footer-link-facebook {
+  fill: $hero-text-color;
+}
+.social-footer-link-linkedin2 {
+  fill: $hero-text-color;
+}
+
+.social-list-item-footer-links:hover,
+.social-list-item-footer-links:focus {
+  fill: $primary-bg-color;
+  background-color: $accent-text-color;
+}
+
+.two-colons-footer {
+  display: flex;
+  justify-content: space-between;
+}
+*/
+/*   FORM    */
+/*
+.join-us-footer-email {
+  color: $hero-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  text-transform: uppercase;
+
+  display: flex;
+
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-top: 12px;
+}
+.email-form-foot {
+  display: flex;
+}
+
+.contact-form-email {
+  width: 358px;
+  min-height: 50px;
+  margin: auto;
+  background-color: transparent;
+  border: 1px solid $bgc-links-footer;
+  border-radius: 4px;
+  align-items: flex-start;
+
+  padding-left: 16px;
+  margin-right: 12px;
+  color: $hero-text-color;
+}
+.button-form-foot {
+  background-color: $accent-text-color;
+
+  width: 200px;
+  min-height: 50px;
+  margin: 0 auto;
+
+  border: 0px;
+  border-radius: 4px;
+}
+.but-foot {
+  justify-content: center;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 700;
+  color: $hero-text-color;
+
+  font-size: 16px;
+  line-height: 1.42;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+}
+
+.icon-for-form-foot {
+  justify-content: center;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: $hero-text-color;
+}
+.join-us-footer-email {
+  display: flex;
+  flex-direction: column;
+}
+*/
+
+.foot-main {
+  box-sizing: border-box;
+  width: 232px;
+  height: 105px;
+  align-items: center;
+}
+
+.footer {
+  background-color: $second-bg-color;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+
+  &-addr {
+    color: $hero-text-color;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+  }
+  &-link {
+    color: $footer-text-color;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  &-li:first-child {
+    margin-top: 20px;
+  }
+
+  &-li {
+    margin-top: 9px;
+  }
+  &-tel {
+    margin-top: 9px;
+  }
+}
+
+/*=====Footer-social-links=====*/
+
+.join-us-footer {
+  color: $hero-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 20px;
+  padding-top: 60px;
+}
+.social-list-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+
+  &-svg {
+    width: 20px;
+    height: 20px;
+  }
+  & .social-list-item + .social-list-item {
+    margin-left: 10px;
+  }
+}
+.social-list-item-footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: $bgc-links-footer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover svg {
+    fill: $hero-text-color;
+  }
+}
+.social-footer-link-instagram {
+  fill: $hero-text-color;
+}
+.social-footer-link-twitter {
+  fill: $hero-text-color;
+}
+.social-footer-link-facebook {
+  fill: $hero-text-color;
+}
+.social-footer-link-linkedin2 {
+  fill: $hero-text-color;
+}
+
+.social-list-item-footer-links:hover,
+.social-list-item-footer-links:focus {
+  fill: $primary-bg-color;
+  background-color: $accent-text-color;
+}
+
+.two-colons-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*   FORM    */
+
+.join-us-footer-email {
+  color: $hero-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  text-transform: uppercase;
+
+  display: flex;
+
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-top: 12px;
+}
+.email-form-foot {
+  display: flex;
+}
+
+.contact-form-email {
+  width: 358px;
+  min-height: 50px;
+  margin: auto;
+  background-color: transparent;
+  border: 1px solid $bgc-links-footer;
+  border-radius: 4px;
+  align-items: flex-start;
+
+  padding-left: 16px;
+  margin-right: 12px;
+  color: $hero-text-color;
+}
+.button-form-foot {
+  background-color: $accent-text-color;
+
+  width: 200px;
+  min-height: 50px;
+  margin: 0 auto;
+
+  border: 0px;
+  border-radius: 4px;
+}
+.but-foot {
+  justify-content: center;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 700;
+  color: $hero-text-color;
+
+  font-size: 16px;
+  line-height: 1.42;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+}
+
+.icon-for-form-foot {
+  justify-content: center;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: $hero-text-color;
+}
+.join-us-footer-email {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 480px) {
+  .foot-main {
+    width: 480px;
+  }
+  .two-colons-footer {
+    width: 480px;
+  }
+  .join-us-footer-email {
+    width: 100%;
+  }
+}

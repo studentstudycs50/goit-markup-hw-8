@@ -1,0 +1,13 @@
+.section-title {
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.6;
+  text-align: center;
+  padding-bottom: 50px;
+}
+@media screen and (min-width: 480px) {
+  .section-title {
+    width: 480px;
+  }
+}

@@ -1,0 +1,433 @@
+/*.main-div {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.site-nav .link {
+  display: block;
+  color: $title-text-color;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  padding-top: 32px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+*/
+/*padding-bottom: 32px; пришлось удалить */
+/*
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: $accent-text-color;
+}
+.site-nav .link.current {
+  color: $accent-text-color;
+}
+.site-nav .link.current::after {
+  display: block;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: $accent-text-color;
+  margin: 0 auto;
+  margin-top: 28px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation {
+  margin-left: auto;
+
+  & .link {
+    color: $primary-text-color;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    font-style: normal;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  & .link:hover,
+  & .link:focus {
+    color: $accent-text-color;
+  }
+  &.link.current {
+    color: $accent-text-color;
+  }
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+
+  & .item + .item {
+    margin-left: 50px;
+  }
+}
+
+.links-main {
+  display: flex;
+  align-items: center;
+
+  .item + .item {
+    padding-left: 50px;
+  }
+}
+*/
+/* задаем размеры иконок*/
+/*
+.icon-for-header-svg-m {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: $primary-text-color;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-for-header-svg-t {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: $primary-text-color;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+*/
+/* задаем цвет при ховере*/
+
+/*
+.link:hover .icon-for-header-svg-m {
+  fill: $accent-text-color;
+}
+.link:hover .icon-for-header-svg-t {
+  fill: $accent-text-color;
+}
+.heading {
+  background-color: $second-bg-color;
+  box-sizing: border-box;
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+
+.overlay-head {
+  flex-grow: 1;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $second-bg-color;
+  outline: 1px solid $title-text-color;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/fon/imj-for-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
+
+.main-div {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.site-nav .link {
+  display: block;
+  color: $title-text-color;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  padding-top: 32px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*padding-bottom: 32px; пришлось удалить */
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: $accent-text-color;
+}
+.site-nav .link.current {
+  color: $accent-text-color;
+}
+.site-nav .link.current::after {
+  display: block;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: $accent-text-color;
+  margin: 0 auto;
+  margin-top: 28px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation {
+  margin-left: auto;
+
+  & .link {
+    color: $primary-text-color;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    font-style: normal;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  & .link:hover,
+  & .link:focus {
+    color: $accent-text-color;
+  }
+  &.link.current {
+    color: $accent-text-color;
+  }
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+
+  & .item + .item {
+    margin-left: 50px;
+  }
+}
+
+.links-main {
+  display: flex;
+  align-items: center;
+
+  .item + .item {
+    padding-left: 50px;
+  }
+}
+
+/* задаем размеры иконок*/
+
+.icon-for-header-svg-m {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: $primary-text-color;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-for-header-svg-t {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: $primary-text-color;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* задаем цвет при ховере*/
+
+.link:hover .icon-for-header-svg-m {
+  fill: $accent-text-color;
+}
+.link:hover .icon-for-header-svg-t {
+  fill: $accent-text-color;
+}
+.heading {
+  background-color: $second-bg-color;
+  box-sizing: border-box;
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+
+/* max-width: 1600px;
+  height: 600px; for desctop
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/fon/imj-for-header.jpg");
+   */
+
+.overlay-head {
+  flex-grow: 1;
+
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $second-bg-color;
+  outline: 1px solid $title-text-color;
+
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/remade-tel/header-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 480px),
+  screen and (min-resolution: 2dppx) and (min-width: 480px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/remade-tel/header-img@2x.jpg");
+  }
+}
+@media not all,
+  screen and (min-resolution: 96dpi) and (min-width: 480px),
+  screen and (min-resolution: 1dppx) and (min-width: 480px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/remade-tel/header-we-img.webp");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 480px),
+  screen and (min-resolution: 2dppx) and (min-width: 480px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/remade-tel/header-web-img@2x.webp");
+  }
+}
+
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/tablet/header.jpg");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/tablet/heade@2x.jpg");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/tablet/header-w.webp");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/tablet/header-w@2x.webp");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/desct-rem/head.jpg");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/desct-rem/head-w.webp");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/desct-rem/header@2x.jpg");
+  }
+}
+@media not all,
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/desct-rem/head-w@2x.webp");
+  }
+}
+
+/*{
+  background-image:linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4), 
+
+     url("../img/remade-tel/header-web-img@2x.webp" 2x);
+     }
+
+    
+    url("../img/remade-tel/header-we-img.webp" 1x);
+    
+ }
+}
+*/
+/*
+@media screen and (min-width: 480px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/remade-tel/igor-on.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/tablet/img.jpg");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .overlay-head {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/desct-rem/imge.jpg");
+  }
+}
+*/
