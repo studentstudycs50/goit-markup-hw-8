@@ -55,7 +55,18 @@
 }
 
 /*настройка слова Studio в футере */
+.nav-foot {
+  text-decoration: none;
 
+  .accent-logo-foot {
+    color: $accent-text-color;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+  }
+}
 .logotip {
   color: $hero-text-color;
   font-family: Raleway, sans-serif;
@@ -71,10 +82,16 @@
   .nav {
     width: 480px;
   }
+  & .accent-logo {
+    width: 480px;
+  }
   .logotip {
     width: 480px;
   }
-  & .accent-logo {
+  .nav-foot {
+    width: 480px;
+  }
+  .accent-logo-foot {
     width: 480px;
   }
 }

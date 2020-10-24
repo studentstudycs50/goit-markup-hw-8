@@ -88,6 +88,19 @@ ul {
 }
 
 /*настройка слова Studio в футере */
+.nav-foot {
+  text-decoration: none;
+}
+
+.nav-foot .accent-logo-foot {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
 .logotip {
   color: #ffffff;
   font-family: Raleway, sans-serif;
@@ -104,10 +117,16 @@ ul {
   .nav {
     width: 480px;
   }
+  .accent-logo {
+    width: 480px;
+  }
   .logotip {
     width: 480px;
   }
-  .accent-logo {
+  .nav-foot {
+    width: 480px;
+  }
+  .accent-logo-foot {
     width: 480px;
   }
 }
@@ -1436,6 +1455,10 @@ ul {
   align-items: center;
 }
 
+.logo-foot {
+  position: relative;
+}
+
 .footer {
   background-color: #2f303a;
   text-decoration: none;
@@ -1461,6 +1484,12 @@ ul {
   list-style: none;
 }
 
+.footer-li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer-li:first-child {
   margin-top: 20px;
 }
@@ -1474,6 +1503,11 @@ ul {
 }
 
 /*=====Footer-social-links=====*/
+.footer-box-links {
+  align-items: center;
+  justify-content: center;
+}
+
 .join-us-footer {
   color: #ffffff;
   font-weight: 700;
@@ -1482,6 +1516,7 @@ ul {
   text-transform: uppercase;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
   padding-top: 60px;
 }
@@ -1554,24 +1589,20 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-  padding-top: 12px;
-}
-
-.email-form-foot {
-  display: flex;
+  padding-top: 60px;
 }
 
 .contact-form-email {
-  width: 358px;
+  min-width: 200px;
   min-height: 50px;
   margin: auto;
   background-color: transparent;
   border: 1px solid #44454e;
   border-radius: 4px;
-  align-items: flex-start;
+  align-items: center;
   padding-left: 16px;
-  margin-right: 12px;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .button-form-foot {
@@ -1607,7 +1638,6 @@ ul {
 
 .join-us-footer-email {
   display: flex;
-  flex-direction: column;
 }
 
 @media screen and (min-width: 480px) {
@@ -1617,8 +1647,26 @@ ul {
   .two-colons-footer {
     width: 480px;
   }
+  .join-us-footer {
+    width: 480px;
+  }
   .join-us-footer-email {
-    width: 100%;
+    width: 480px;
+  }
+  .contact-form-email {
+    width: 450px;
+  }
+  .decor-footer-logo {
+    width: 480px;
+  }
+  .nav-foot {
+    width: 480px;
+  }
+  .logo-foot {
+    width: 480px;
+  }
+  .footer-box-links {
+    width: 480px;
   }
 }
 
