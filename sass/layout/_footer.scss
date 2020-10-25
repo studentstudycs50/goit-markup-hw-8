@@ -186,7 +186,7 @@
   align-items: center;
 }
 .logo-foot {
-  position: relative;
+  text-align: center;
 }
 
 .footer {
@@ -231,6 +231,11 @@
 
 /*=====Footer-social-links=====*/
 .footer-box-links {
+  text-align: center;
+  box-sizing: border-box;
+  height: 80px;
+  width: 206px;
+
   align-items: center;
   justify-content: center;
 }
@@ -240,11 +245,6 @@
   font-size: 14px;
   line-height: 1.142;
   text-transform: uppercase;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   margin-bottom: 20px;
   padding-top: 60px;
 }
@@ -300,7 +300,9 @@
 }
 
 /*   FORM    */
-
+.footer-box-join {
+  padding-top: 60px;
+}
 .join-us-footer-email {
   color: $hero-text-color;
   font-weight: 700;
@@ -314,6 +316,8 @@
   margin-bottom: 20px;
 
   padding-top: 60px;
+  align-items: center;
+  text-align: center;
 }
 
 .contact-form-email {
@@ -390,6 +394,9 @@
     width: 480px;
   }
   .footer-box-links {
+    width: 480px;
+  }
+  .footer-box-join {
     width: 480px;
   }
 }
