@@ -42,8 +42,8 @@
 
 .social-list {
   display: flex;
+  align-items: center;
   justify-content: center;
-
   &-svg {
     width: 20px;
     height: 20px;
@@ -82,6 +82,7 @@
 }
 @media screen and (min-width: 480px) {
   .social-list {
-    width: 480px;
+    width: 100%;
   }
 }
+

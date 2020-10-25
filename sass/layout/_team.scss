@@ -85,6 +85,14 @@
   text-align: center;
   margin-bottom: 16px;
 }
+.team-image {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+.our-team-li:nth-child(-n + 4) {
+  padding-bottom: 30px;
+}
 
 @media screen and (min-width: 480px) {
   .bgc-our-team {
