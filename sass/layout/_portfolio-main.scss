@@ -96,7 +96,10 @@
   text-transform: inherit;
   color: $title-text-color;
 }
-
+.features-portfolio {
+  display: flex;
+  flex-direction: column;
+}
 .text-elem {
   font-size: 16px;
   line-height: 1.87;
@@ -109,8 +112,10 @@
 .border-for-cards {
   display: inline-block;
   border: 1px solid $line;
-  width: 370px;
   height: 404px;
+  width: 100%;
+
+  height: auto;
   background-color: $primary-bg-color;
   overflow: hidden;
 
@@ -145,18 +150,12 @@
   padding-right: 24px;
 }
 
-.features-li:not(:nth-child(3n)) {
-  padding-right: 30px;
+.features-li:nth-child(-n + 8) {
   padding-bottom: 30px;
 }
 .border-for-cards:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.features-portfolio {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .portfolio-text-for-cards {
@@ -170,4 +169,20 @@
   padding-left: 63px;
   padding-left: 24px;
   padding-right: 24px;
+}
+@media screen and (min-width: 480px) {
+  .border-for-cards {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .features-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .features-li {
+    justify-content: center;
+    height: auto;
+    width: 47%;
+  }
 }

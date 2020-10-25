@@ -1,0 +1,28 @@
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: 1px solid springgreen;
+  background-color: transparent;
+}
+.menu-button .icon-close {
+  display: none;
+}
+.menu-button.is-open .icon-close {
+  display: block;
+}
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+.icon-close {
+  width: 19px;
+  height: 19px;
+  fill: $title-text-color;
+  background-color: transparent;
+}
+.icon-menu {
+  width: 24px;
+  height: 16px;
+  fill: $title-text-color;
+  background-color: transparent;
+}
