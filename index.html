@@ -304,13 +304,13 @@
                     </li>
                     <li class="our-team-li">
                         <picture class="pisture">
-                            <source srcset="./img/desct-rem/olg-desc.jpg 1x, ./img/desct-rem/odesc@2x.jpg 2x" @media="(min-width:1200px)" type="image/webp">
+                            <source srcset="./img/desct-rem/olg-desc.jpg 1x, ./img/desct-rem/odesc@2x.jpg 2x" @media="(min-width:1200px)" >
                             <source srcset=" ./img/desct-rem/oldecweb.webp 1x, ./img/desct-rem/ode@2x.webp 2x " @media="(min-width:1200px)" type="image/webp">
-                            <source srcset="./img/tablet/oltabw.jpg 1x, ./img/tablet/otab@2x.jpg 2x" @media="(min-width:768px)" type="image/webp">
-                            <source srcset="./img/tablet/otab.webp 1x, ./img/tablet/otab@2x.webp 2x" @media="(min-width:768px)" type="image/webp>
-                            <source srcset="./img/remade-tel/olga.jpg 1x, ./img/remade-tel/olga@2x.jpg 2x" @media="(min-width:320px)" type="image/webp">   
-                          <source  srcset="./img/remade-tel/olga-w.webp 1x, ./img/remade-tel/olgaw@2x.webp 2x" @media="(min-width:320px)" type="image/webp">
-                        <img src="./img/remade-tel/olga.jpg" alt="Фронтэнд разработчик Ольга" />
+                            <source srcset="./img/tablet/oltabw.jpg 1x, ./img/tablet/otab@2x.jpg 2x" @media="(min-width:768px)" >
+                            <source srcset="./img/tablet/otab.webp 1x, ./img/tablet/otab@2x.webp 2x" @media="(min-width:768px)" type="image/webp">
+                            <source srcset="./img/remade-tel/olga.jpg 1x, ./img/remade-tel/olga@2x.jpg 2x"  @media="(min-width:320px) and (max-width:450px)" >   
+                          <source  srcset="./img/remade-tel/olga-w.webp 1x, ./img/remade-tel/olgaw@2x.webp 2x" @media="(min-width:320px and (max-width:450px))" type="image/webp">
+                        <img src="./img/remade-tel/olga.jpg 1x" alt="Фронтэнд разработчик Ольга" width="270" class="team-image" />
                         </picture>
                         
                         <div class="team-padding">
@@ -523,7 +523,9 @@
 
     <footer class="footer">
         <div class="container">
+
             <div class="two-colons-footer">
+                <div class="footer-real-two">
                 <div class="decor-footer-logo">
 <div class="logo-foot">
                     <a href="./index.html" class="nav-foot"><span class="accent-logo-foot" lang="en">Web</span><span
@@ -593,6 +595,7 @@
 
                 </div>
 
+                </div>
             <div class="footer-box-join">
                 <h2 class="join-us-footer-email">Подпишитесь на рассылку</h2>
                 <form action="#" class="email-form-foot">
