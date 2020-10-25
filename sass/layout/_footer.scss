@@ -184,6 +184,7 @@
   width: 232px;
   height: 105px;
   align-items: center;
+  margin: 0 auto;
 }
 .logo-foot {
   text-align: center;
@@ -238,6 +239,7 @@
 
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 .join-us-footer {
   color: $hero-text-color;
@@ -296,7 +298,8 @@
 
 .two-colons-footer {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto;
 }
 
 /*   FORM    */

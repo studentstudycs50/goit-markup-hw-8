@@ -52,10 +52,10 @@
 .section-title-clients {
   color: $title-text-color;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.171;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .our-clients {
   background-color: $primary-bg-color;
@@ -64,22 +64,23 @@
 
   &-ul {
     display: flex;
+    flex-wrap: wrap;
   }
+
   &-ul &-li + &-li {
-    margin-left: 30px;
     margin-bottom: 30px;
   }
-
   &-li {
     display: flex;
-
+    align-items: center;
+    justify-content: center;
     border: 1px solid $links;
     border-radius: 4px;
     background-color: $third-bg-color;
 
     box-sizing: border-box;
     height: 90px;
-
+    width: 210px;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   &-li:hover {
@@ -96,6 +97,12 @@
     width: 480px;
   }
   .our-clients {
+    width: 480px;
+  }
+  &-li {
+    width: 480px;
+  }
+  &-ul &-li + &-li {
     width: 480px;
   }
 }
