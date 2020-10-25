@@ -1061,12 +1061,6 @@ ul {
   margin-bottom: 16px;
 }
 
-.team-image {
-  width: 100%;
-  max-width: 450px;
-  height: auto;
-}
-
 @media screen and (min-width: 480px) {
   .bgc-our-team {
     width: 480px;
@@ -1079,12 +1073,6 @@ ul {
   }
   .team-image {
     width: 450px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .team-image {
-    max-width: 450px;
   }
 }
 
