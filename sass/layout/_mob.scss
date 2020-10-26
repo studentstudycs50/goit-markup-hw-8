@@ -9,13 +9,13 @@
     display: none;
   }
 }
-.menu-button .icon-cross {
+.menu-button .icon-menu {
   display: none;
 }
-.menu-button.is-open .icon-cross {
+.menu-button.is-open .icon-menu {
   display: block;
 }
-.menu-button.is-open .icon-menu {
+.menu-button.is-open .icon-cross {
   display: none;
 }
 /*.icon-cross {
@@ -32,7 +32,7 @@
 }*/
 .menu-container {
   height: 400px;
-  background-color: violet;
+  background-color: $hero-text-color;
   padding: 20px;
   text-align: center;
   font-size: 20px;
@@ -60,3 +60,21 @@
   height: 50px;
   width: 140px;
 }*/
+.menu-container.is-open {
+  display: block;
+}
+
+.icon-menu:hover svg {
+  fill: $accent-text-color;
+}
+@media screen and (max-width: 767px) {
+  .header-dec {
+    height: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .site-naw {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

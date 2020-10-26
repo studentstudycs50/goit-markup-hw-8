@@ -121,6 +121,7 @@
 .overlay {
   position: relative;
   overflow: hidden;
+  z-index: 3;
 }
 .text-cards-overlay {
   position: absolute;
