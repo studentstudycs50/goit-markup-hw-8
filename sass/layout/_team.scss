@@ -94,7 +94,7 @@
   padding-bottom: 30px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .bgc-our-team {
     width: 480px;
   }
@@ -106,5 +106,18 @@
   }
   .team-image {
     width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-team-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bgc-our-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }

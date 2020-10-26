@@ -87,6 +87,7 @@
   align-content: center;
   height: 120px;
 
+  max-width: 450px;
   background-color: $bgc-icons-benefits;
   border: 1px solid $bgc-icons-benefits;
   border-radius: 4px;
@@ -142,14 +143,26 @@
 }
 
 @media screen and (min-width: 768px) {
-  .main-features {
-    width: 768px;
-  }
   .our-work-features {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   .benefits {
-    margin-right: 30px;
+    width: 354px;
+  }
+  .work-features-title {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits {
+    width: 270px;
+  }
+  .work-features-title {
+    text-align: left;
+  }
+  .main-features {
+    padding-top: 94px;
   }
 }
