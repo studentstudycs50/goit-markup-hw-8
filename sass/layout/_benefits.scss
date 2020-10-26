@@ -129,16 +129,17 @@
 
 @media screen and (max-width: 480px) {
   .main-features {
+    width: 100%;
     max-width: 450px;
   }
   .icons-benefits-four {
-    width: 480px;
+    width: 100%;
   }
   .work-features-title {
-    width: 480px;
+    width: 100%;
   }
   .text {
-    width: 480px;
+    width: 100%;
   }
 }
 

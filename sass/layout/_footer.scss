@@ -376,10 +376,11 @@
 
 @media screen and (max-width: 480px) {
   .join-us-footer-email {
-    width: 480px;
+    width: 100%;
   }
   .contact-form-email {
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 768px) {

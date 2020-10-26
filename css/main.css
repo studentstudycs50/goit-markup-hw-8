@@ -1187,16 +1187,17 @@ ul {
 
 @media screen and (max-width: 480px) {
   .main-features {
+    width: 100%;
     max-width: 450px;
   }
   .icons-benefits-four {
-    width: 480px;
+    width: 100%;
   }
   .work-features-title {
-    width: 480px;
+    width: 100%;
   }
   .text {
-    width: 480px;
+    width: 100%;
   }
 }
 
@@ -1282,7 +1283,7 @@ ul {
 
 @media screen and (max-width: 480px) {
   .section-title {
-    width: 480px;
+    width: 100%;
   }
 }
 
@@ -1396,16 +1397,16 @@ ul {
 
 @media screen and (max-width: 480px) {
   .bgc-our-team {
-    width: 480px;
+    width: 100%;
   }
   .our-team-li {
-    width: 450px;
+    width: 100%;
   }
   -padding {
-    width: 450px;
+    width: 100%;
   }
   .team-image {
-    width: 450px;
+    width: 100%;
   }
 }
 
@@ -2029,10 +2030,11 @@ ul {
 
 @media screen and (max-width: 480px) {
   .join-us-footer-email {
-    width: 480px;
+    width: 100%;
   }
   .contact-form-email {
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
   }
 }
 
@@ -2435,6 +2437,12 @@ ul {
   background-color: transparent;
 }
 
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+
 .menu-button .icon-cross {
   display: none;
 }
@@ -2460,13 +2468,38 @@ ul {
   background-color: transparent;
 }*/
 .menu-container {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  color: violet;
+  height: 400px;
+  background-color: violet;
   padding: 20px;
   text-align: center;
   font-size: 20px;
 }
+
+.menu-container .is-open {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768) {
+  .menu-container {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+}
+
+/*.main-nav,
+.navigation {
+  height: 50px;
+  width: 140px;
+}*/
 /*# sourceMappingURL=main.css.map */
