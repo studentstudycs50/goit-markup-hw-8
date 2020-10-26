@@ -438,6 +438,10 @@ site-nav .item + .item {
   .header-dec {
     height: 80px;
   }
+  .links-main {
+    display: flex;
+    flex-direction: column;
+  }
   .site-nav {
     display: flex;
     text-align: center;
