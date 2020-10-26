@@ -2094,6 +2094,7 @@ ul {
   .two-colons-footer {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
   }
   .email-form-foot {
     display: flex;
@@ -2103,6 +2104,7 @@ ul {
   }
   .contact-form-email {
     width: 358px;
+    margin-right: 12px;
   }
   .join-us-footer-email {
     display: flex;
@@ -2120,9 +2122,57 @@ ul {
   .footer-box-join {
     padding-top: 0;
     align-content: center;
+    margin: unset;
   }
 }
 
+/*
+.but {
+  display: block;
+  border: 0px;
+  font-family: inherit;
+  font-weight: 500;
+  color: $accent-text-color;
+
+  font-size: 16px;
+  line-height: 1.6;
+  text-decoration: none;
+
+  border: 0px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px 22px;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button .but:hover,
+.button .but:focus {
+  color: $hero-text-color;
+  background-color: $accent-text-color;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button.primary {
+  color: $hero-text-color;
+  background-color: $accent-text-color;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.buttons-section .button {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.button .title + .title {
+  margin-left: 8px;
+}
+
+.buttons-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+*/
 .but {
   display: block;
   border: 0px;
@@ -2165,6 +2215,14 @@ ul {
 .buttons-section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+@media screen and (min-width: 768px) {
+  .buttons-section .button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
 }
 
 /*.border-for-header {
@@ -2266,11 +2324,6 @@ ul {
   color: #212121;
 }
 
-.features-portfolio {
-  display: flex;
-  flex-direction: column;
-}
-
 .text-elem {
   font-size: 16px;
   line-height: 1.87;
@@ -2341,7 +2394,7 @@ ul {
   padding-right: 24px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .border-for-cards {
     max-width: 450px;
   }
@@ -2352,10 +2405,14 @@ ul {
     display: flex;
     flex-wrap: wrap;
   }
-  .features-li {
-    justify-content: center;
-    height: auto;
-    width: 47%;
+  .features-li:nth-child(2n) {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .border-for-cards-portfolio {
+    display: flex;
   }
 }
 /*# sourceMappingURL=main.css.map */

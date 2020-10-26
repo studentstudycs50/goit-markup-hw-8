@@ -443,6 +443,7 @@
   .two-colons-footer {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
   }
 
   .email-form-foot {
@@ -453,6 +454,7 @@
   }
   .contact-form-email {
     width: 358px;
+    margin-right: 12px;
   }
 
   .join-us-footer-email {
@@ -470,7 +472,7 @@
   }
   .footer-box-join {
     padding-top: 0;
-
     align-content: center;
+    margin: unset;
   }
 }

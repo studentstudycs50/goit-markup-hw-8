@@ -96,10 +96,7 @@
   text-transform: inherit;
   color: $title-text-color;
 }
-.features-portfolio {
-  display: flex;
-  flex-direction: column;
-}
+
 .text-elem {
   font-size: 16px;
   line-height: 1.87;
@@ -170,7 +167,7 @@
   padding-left: 24px;
   padding-right: 24px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .border-for-cards {
     max-width: 450px;
   }
@@ -180,9 +177,12 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .features-li {
-    justify-content: center;
-    height: auto;
-    width: 47%;
+  .features-li:nth-child(2n) {
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .border-for-cards-portfolio {
+    display: flex;
   }
 }
