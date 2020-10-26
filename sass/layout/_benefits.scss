@@ -151,7 +151,11 @@
   .benefits {
     width: 354px;
   }
-  .work-features-title {
+  .main-features {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .our-work-features .work-features-title {
     text-align: left;
   }
 }
@@ -159,7 +163,8 @@
   .benefits {
     width: 270px;
   }
-  .work-features-title {
+
+  .our-work-features .work-features-title {
     text-align: left;
   }
   .main-features {

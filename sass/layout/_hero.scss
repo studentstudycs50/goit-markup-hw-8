@@ -468,6 +468,42 @@
 /*@media screen and (max-width: 480px) {
   width: 100%;
 }
+*/
 @media screen and (min-width: 768px) {
-  height: 400px;
-}*/
+  .heading {
+    height: 400px;
+    width: auto;
+    max-width: 768px;
+  }
+  .color-white {
+    text-align: center;
+    font-size: 26px;
+  }
+  .modal {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 609px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .heading {
+    height: 600px;
+    width: auto;
+    max-width: 1600px;
+  }
+  .color-white {
+    text-align: center;
+    font-size: 44px;
+  }
+  .modal {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    height: 581px;
+  }
+}
