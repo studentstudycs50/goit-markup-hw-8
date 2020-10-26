@@ -2,27 +2,38 @@
   display: inline-flex;
   margin: 0;
   padding: 0;
-  border: 1px solid springgreen;
+  border: none;
   background-color: transparent;
 }
-.menu-button .icon-close {
+.menu-button .icon-cross {
   display: none;
 }
-.menu-button.is-open .icon-close {
+.menu-button.is-open .icon-cross {
   display: block;
 }
 .menu-button.is-open .icon-menu {
   display: none;
 }
-.icon-close {
+/*.icon-cross {
   width: 19px;
   height: 19px;
-  fill: $title-text-color;
+
   background-color: transparent;
 }
 .icon-menu {
   width: 24px;
   height: 16px;
-  fill: $title-text-color;
+
   background-color: transparent;
+}*/
+.menu-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+
+  color: violet;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
 }

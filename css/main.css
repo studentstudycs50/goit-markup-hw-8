@@ -373,6 +373,15 @@ ul {
   padding-bottom: 280px;
 }
 
+/*для моб версии хедер*/
+.page-header .nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+}
+
 /* max-width: 1600px;
   height: 600px; for desctop
   background-image: linear-gradient(
@@ -1504,6 +1513,7 @@ ul {
   box-sizing: border-box;
   height: 90px;
   width: 47%;
+  max-width: 226px;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1529,6 +1539,28 @@ ul {
   }
   -ul -li + -li {
     width: 100%;
+  }
+}
+
+@media screen and (width: 768px) {
+  -li {
+    height: 90px;
+    width: 226px;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@media screen and (width: 1200px) {
+  -ul {
+    display: flex;
+    justify-content: spase-around;
+  }
+  -ul -li + -li {
+    margin-left: 30px;
+  }
+  -li {
+    height: 90px;
+    width: 170px;
   }
 }
 
@@ -1947,9 +1979,31 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
-    padding-top: 65px;
-    padding-bottom: 65px;
+  .two-colons-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .footer-real-two {
+    display: flex;
+    justify-content: space-between;
+    width: 232px;
+  }
+  .logo-foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .join-us-footer-email {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form-email {
+    width: 450px;
+  }
+  .footer-box-join {
+    margin: auto;
   }
 }
 

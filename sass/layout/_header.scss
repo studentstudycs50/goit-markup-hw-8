@@ -236,6 +236,14 @@
   padding-top: 200px;
   padding-bottom: 280px;
 }
+/*для моб версии хедер*/
+.page-header .nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+}
 
 /* max-width: 1600px;
   height: 600px; for desctop

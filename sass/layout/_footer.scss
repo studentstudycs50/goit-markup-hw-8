@@ -189,7 +189,6 @@
 .logo-foot {
   text-align: center;
 }
-
 .footer {
   background-color: $second-bg-color;
   text-decoration: none;
@@ -404,8 +403,30 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .footer {
-    padding-top: 65px;
-    padding-bottom: 65px;
+  .two-colons-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .footer-real-two {
+    display: flex;
+    justify-content: space-between;
+    width: 232px;
+  }
+  .logo-foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .join-us-footer-email {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form-email {
+    width: 450px;
+  }
+  .footer-box-join {
+    margin: auto;
   }
 }
