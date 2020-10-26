@@ -41,6 +41,7 @@
   align-items: center;
   margin-right: auto;
 }
+
 .nav {
   text-decoration: none;
 
@@ -93,5 +94,10 @@
   }
   .accent-logo-foot {
     width: 480px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-nav {
+    flex-direction: column;
   }
 }
