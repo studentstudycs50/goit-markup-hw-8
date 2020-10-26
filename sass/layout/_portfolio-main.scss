@@ -185,4 +185,11 @@
   .border-for-cards-portfolio {
     display: flex;
   }
+  .features-li {
+    width: 370px;
+    padding-bottom: 0;
+  }
+  .features-li:nth-child(3n) {
+    margin-bottom: 30px;
+  }
 }
