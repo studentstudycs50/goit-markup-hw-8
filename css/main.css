@@ -2059,12 +2059,16 @@ ul {
   .join-us-footer-email {
     display: flex;
     flex-direction: column;
-  }
-  .contact-form-email {
-    width: 450px;
+    padding-top: 0;
   }
   .footer-box-join {
     margin: auto;
+  }
+  .join-us-footer {
+    padding-top: 5px;
+  }
+  .contact-form-email {
+    width: 450px;
   }
 }
 
