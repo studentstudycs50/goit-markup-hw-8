@@ -81,17 +81,15 @@
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 50px;
+  margin: -7px -4px;
 }
-.button .title + .title {
-  margin-left: 8px;
+.title {
+  margin: 7px 4px;
 }
 
 .buttons-section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.title:nth-child(-n + 3) {
-  margin-bottom: 15px;
 }
 
 @media screen and (min-width: 768px) {

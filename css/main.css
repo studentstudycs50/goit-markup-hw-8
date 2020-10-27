@@ -2017,7 +2017,7 @@ site-nav .item + .item {
 }
 
 .contact-form-email {
-  min-width: 200px;
+  width: 100%;
   min-height: 50px;
   margin: auto;
   background-color: transparent;
@@ -2064,6 +2064,14 @@ site-nav .item + .item {
   display: flex;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 480px;
+}
+
 @media screen and (max-width: 480px) {
   .join-us-footer-email {
     width: 100%;
@@ -2075,6 +2083,9 @@ site-nav .item + .item {
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
   .two-colons-footer {
     display: flex;
     justify-content: space-between;
@@ -2107,10 +2118,17 @@ site-nav .item + .item {
 }
 
 @media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
   .foot-main {
     box-sizing: border-box;
     width: 231px;
     height: 105px;
+  }
+  .footer-real-two {
+    display: flex;
+    justify-content: space-between;
   }
   .footer {
     background-color: #2f303a;
@@ -2121,6 +2139,9 @@ site-nav .item + .item {
     padding-top: 60px;
     padding-bottom: 60px;
     display: flex;
+  }
+  .join-us-footer {
+    padding-top: 12px;
   }
   .social-list-footer {
     display: flex;
@@ -2146,9 +2167,7 @@ site-nav .item + .item {
   .join-us-footer-email {
     display: flex;
     flex-direction: column;
-  }
-  .decor-footer-logo {
-    width: 231px;
+    padding-top: 12px;
   }
   .footer-li {
     justify-content: start;
@@ -2160,6 +2179,9 @@ site-nav .item + .item {
     padding-top: 0;
     align-content: center;
     margin: unset;
+  }
+  .footer-box-links {
+    text-align: start;
   }
 }
 
@@ -2243,19 +2265,16 @@ site-nav .item + .item {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 50px;
+  margin: -7px -4px;
 }
 
-.button .title + .title {
-  margin-left: 8px;
+.title {
+  margin: 7px 4px;
 }
 
 .buttons-section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.title:nth-child(-n + 3) {
-  margin-bottom: 15px;
 }
 
 @media screen and (min-width: 768px) {
