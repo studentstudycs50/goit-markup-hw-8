@@ -86,19 +86,19 @@
 }
 @media screen and (min-width: 480px) {
   .nav {
-    width: 480px;
+    width: 100%;
   }
   & .accent-logo {
-    width: 480px;
+    width: 100%;
   }
   .logotip {
-    width: 480px;
+    width: 100%;
   }
   .nav-foot {
-    width: 480px;
+    width: 100%;
   }
   .accent-logo-foot {
-    width: 480px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 767px) {

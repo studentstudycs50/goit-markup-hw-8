@@ -18,18 +18,6 @@
 .menu-button.is-open .icon-cross {
   display: none;
 }
-/*.icon-cross {
-  width: 19px;
-  height: 19px;
-
-  background-color: transparent;
-}
-.icon-menu {
-  width: 24px;
-  height: 16px;
-
-  background-color: transparent;
-}*/
 
 /*.main-nav,
 .navigation {
@@ -39,12 +27,19 @@
 .menu-container.is-open {
   display: block;
 }
+.menu-container {
+  position: absolute;
+  top: 60px;
+  left: 100%;
+  background-color: $hero-text-color;
+  z-index: 99;
+}
 
 .icon-menu:hover svg {
   fill: $accent-text-color;
 }
 @media screen and (max-width: 767px) {
   .header-dec {
-    height: 40px;
+    height: 60px;
   }
 }
