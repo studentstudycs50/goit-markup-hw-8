@@ -2538,6 +2538,7 @@ site-nav .item + .item {
   height: 395px;
   background-color: #ffffff;
   z-index: 99;
+  display: none;
 }
 
 .header-dec {
