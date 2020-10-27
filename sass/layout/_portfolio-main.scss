@@ -174,7 +174,7 @@
     max-width: 450px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 768px) {
   .features-portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -192,6 +192,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .features-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .features-li {
     width: 370px;
   }
