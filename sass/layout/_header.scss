@@ -239,6 +239,9 @@
 .link:hover .icon-for-header-svg-t {
   fill: $accent-text-color;
 }
+.header-dec {
+  border-bottom: 1px solid $line;
+}
 .heading {
   background-color: $second-bg-color;
   box-sizing: border-box;
