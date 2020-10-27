@@ -427,6 +427,7 @@ site-nav .item + .item {
   align-items: center;
   margin-right: auto;
   justify-content: space-between;
+  position: relative;
 }
 
 .site-nav .link {
@@ -2531,8 +2532,10 @@ site-nav .item + .item {
 
 .menu-container {
   position: absolute;
-  top: 60px;
-  left: 100%;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 600px;
   background-color: #ffffff;
   z-index: 99;
 }
