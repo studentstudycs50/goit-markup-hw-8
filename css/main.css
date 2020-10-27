@@ -281,18 +281,6 @@ ul {
   position: relative;
 }
 
-.site-nav .link {
-  display: block;
-  color: #212121;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-decoration: none;
-  padding-top: 32px;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /*padding-bottom: 32px; пришлось удалить */
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -359,7 +347,7 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  .site-nav {
+  .tablet-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -454,7 +442,10 @@ ul {
   }
   .tablet-links-main {
     display: flex;
-    margin: 0;
+  }
+  .item {
+    display: flex;
+    text-align: center;
   }
   .tablet-list .link {
     display: block;
@@ -467,8 +458,17 @@ ul {
     padding-top: 32px;
     padding-bottom: 32px;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    position: absolute;
   }
+  .tablet-list .item + .item {
+    margin-left: 50px;
+  }
+  .tablet-main-nav {
+    margin-right: 0;
+  }
+  /*.tablet-list{
+      position: absolute;
+    }
+  */
   .tablet-list .link:hover,
   .tablet-list .link:focus {
     color: #2196f3;
@@ -484,11 +484,10 @@ ul {
     background-color: #2196f3;
     margin: 0 auto;
     margin-top: 0;
-    position: absolute;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .tablet-navigation {
-    margin-left: auto;
+    margin-left: 0;
   }
   .tablet-navigation .link {
     color: #757575;
@@ -507,33 +506,15 @@ ul {
   .tablet-navigation.link.current {
     color: #2196f3;
   }
-  .tablet-list {
-    display: flex;
-    align-items: center;
-  }
   .tablet-links-main {
-    display: flex;
+    display: block;
     align-items: center;
-  }
-  .tablet-navigation {
-    margin: 0;
-  }
-  .tablet-list {
-    display: flex;
+    flex-direction: row;
   }
   .tablet-list .link {
-    display: block;
-    color: #212121;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    text-decoration: none;
-    padding-top: 32px;
-    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .tablet-list .link .tablet-main-nav {
-    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 }
 
