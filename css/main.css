@@ -206,8 +206,8 @@ ul {
 
 .links-main {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  /*align-items: center; удалила чтоб стали в таблетке ровно тел и мейл*/
 }
 
 .item-cont {
@@ -305,13 +305,14 @@ ul {
     justify-content: space-between;
     position: relative;
   }
+  .tablet-links-main {
+    display: flex;
+    text-align: start;
+  }
   .tablet-header-dec {
     height: 80px;
     display: flex;
     text-align: center;
-  }
-  .tablet-links-main {
-    display: flex;
   }
   .item {
     display: flex;
@@ -383,10 +384,6 @@ ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-  }
-  .tablet-links-main {
-    display: flex;
-    align-items: center;
   }
 }
 
